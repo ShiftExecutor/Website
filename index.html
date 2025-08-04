@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift Executor - Next-Generation Roblox Exploitation</title>
+    <meta name="description" content="Experience Roblox like never before with Shift Executor - the most advanced, stable, and undetected executor available">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="particle-container"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Shift</span>
+                <span class="logo-executor">Executor</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#performance">Performance</a>
+                <a href="#download">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">⚡</span>
+                    <span>v2.4.0 - Latest Release</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-main">Professional</span>
+                    <span class="title-gradient">Roblox Executor</span>
+                    <span class="title-sub">Built for Developers</span>
+                </h1>
+                
+                <p class="hero-description">
+                    A lightweight, reliable Lua executor designed for script testing and development. 
+                    Built with modern bypass techniques and a focus on stability over flashy features.
+                </p>
+                
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="scrollToDownload()">
+                        Download for Windows
+                        <span class="btn-subtitle">v2.4.0 • 4.2MB • Windows Only</span>
+                    </button>
+                    <button class="btn-secondary" onclick="showDemo()">
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="code-title">main.lua</span>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="code-keyword">local</span> executor = <span class="code-string">"Shift"</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">local</span> status = executor:<span class="code-function">Execute</span>(<span class="code-string">"Universal Script"</span>)
+                        </div>
+                        <div class="code-line">
+                            <span class="code-comment">-- Injection successful</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">print</span>(<span class="code-string">"Bypassed Byfron in"</span>, <span class="code-number">0.3</span>, <span class="code-string">"ms"</span>)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Engineered for Excellence</h2>
+                
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Stable & Consistent</h3>
+                        <p>Regular updates ensure compatibility with Roblox updates. No crashes, no false promises.</p>
+                        <div class="feature-stat">Updated 2 days ago</div>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                        </div>
+                        <h3>Fast Execution</h3>
+                        <p>Efficient injection with minimal overhead. Scripts execute reliably without game interference.</p>
+                        <div class="feature-stat">~200ms avg injection</div>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v20M2 12h20"/>
+                            </svg>
+                        </div>
+                        <h3>Wide Compatibility</h3>
+                        <p>Works with most games that allow client-side script execution. Tested across popular titles.</p>
+                        <div class="feature-stat">100+ games verified</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="performance" class="performance">
+            <div class="container">
+                <h2 class="section-title">Performance That Speaks</h2>
+                
+                <div class="performance-grid">
+                    <div class="perf-metric">
+                        <div class="metric-number" data-target="94.2">0</div>
+                        <div class="metric-label">% Success Rate</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 94.2%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="perf-metric">
+                        <div class="metric-number" data-target="0.2">0</div>
+                        <div class="metric-label">s Injection Time</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 2%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="perf-metric">
+                        <div class="metric-number" data-target="12400">0</div>
+                        <div class="metric-label">Active Users</div>
+                        <div class="metric-bar">
+                            <div class="metric-fill" style="width: 62%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="container">
+                <h2 class="section-title">Ready to Experience More?</h2>
+                <p class="download-subtitle">Join 50,000+ users who've already transformed their Roblox experience</p>
+                
+                <div class="download-card">
+                    <div class="download-info">
+                        <h3>Shift Executor v2.4.0</h3>
+                        <ul class="download-features">
+                            <li>✓ Windows 10/11 64-bit</li>
+                            <li>✓ Requires .NET 6.0+ runtime</li>
+                            <li>✓ Discord Rich Presence</li>
+                            <li>✓ Simple config file</li>
+                        </ul>
+                        
+                        <button class="download-btn" onclick="downloadExecutor()">
+                            <span class="btn-text">Download v2.4.0</span>
+                            <span class="btn-size">4.2MB • Windows Only</span>
+                        </button>
+                        
+                        <p class="download-note">Windows Defender may flag as PUA - this is expected</p>
+                        <p class="download-warning">If download doesn't start, check your Windows version or try refreshing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo" class="demo-section">
+            <div class="container">
+                <h2 class="section-title">See Shift in Action</h2>
+                <div class="demo-wrapper">
+                    <div class="demo-window">
+                        <div class="demo-header">
+                            <div class="demo-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="demo-title">Shift Executor v2.4.0</span>
+                        </div>
+                        <div class="demo-content">
+                            <div class="demo-interface">
+                                <div class="interface-top">
+                                    <div class="status-bar">
+                                        <span class="status-text">Status: <span id="injector-status">Waiting...</span></span>
+                                        <span class="status-indicator" id="status-light"></span>
+                                    </div>
+                                </div>
+
+                                <div class="interface-middle">
+                                    <div class="script-section">
+                                        <div class="script-header">
+                                            <span>Script Hub</span>
+                                            <span class="script-count">3 scripts loaded</span>
+                                        </div>
+                                        <div class="script-list">
+                                            <div class="script-item">
+                                                <span class="script-name">Universal Aimbot</span>
+                                                <button class="execute-btn" onclick="executeScript(0)">Execute</button>
+                                            </div>
+                                            <div class="script-item">
+                                                <span class="script-name">ESP Framework</span>
+                                                <button class="execute-btn" onclick="executeScript(1)">Execute</button>
+                                            </div>
+                                            <div class="script-item">
+                                                <span class="script-name">Fly & Noclip</span>
+                                                <button class="execute-btn" onclick="executeScript(2)">Execute</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="custom-script">
+                                            <textarea id="custom-script" placeholder="-- Paste your script here..."></textarea>
+                                            <button class="execute-custom" onclick="executeCustom()">Execute</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="interface-bottom">
+                                    <div class="logs">
+                                        <div class="log-entry">[00:00:01] Shift Executor initialized</div>
+                                        <div class="log-entry">[00:00:02] Checking Roblox process...</div>
+                                        <div class="log-entry">[00:00:02] Roblox found - PID: 12584</div>
+                                        <div class="log-entry" id="inject-log">[00:00:03] Waiting for injection...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="demo-progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <button class="demo-replay" onclick="replayDemo()">Replay Demo</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shift Executor. Not affiliated with Roblox Corporation.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
